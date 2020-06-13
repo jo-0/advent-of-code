@@ -17,18 +17,12 @@ continuing until a fuel requirement is zero or negative. For example:
     At first, a module of mass 1969 requires 654 fuel. Then, this fuel requires 216 more fuel (654 / 3 - 2). 216 then requires 70 more fuel, which requires 21 fuel, 
     which requires 5 fuel, which requires no further fuel. So, the total fuel required for a module of mass 1969 is 654 + 216 + 70 + 21 + 5 = 966.
     The fuel required by a module of mass 100756 and its fuel is: 33583 + 11192 + 3728 + 1240 + 411 + 135 + 43 + 12 + 2 = 50346.
-
-What is the sum of the fuel requirements for all of the modules on your spacecraft when also taking
-into account the mass of the added fuel? (Calculate the fuel requirements for each module
-separately, then add them all up at the end.)
 */
 
 "use strict";
 
 
-/**
- * Each module and its mass.
- */
+ // Each module and its mass.
 const allMass = [144358, 92044, 53617, 71695, 134329, 149370, 57980, 71899, 58281, 67662,
     81199, 123700, 140080, 63608, 71520, 51020, 125731, 58038, 64709, 120935, 65512, 142680, 135615,
     64251, 131894, 92421, 135197, 118339, 111812, 133283, 100622, 67295, 125093, 56381, 76811,

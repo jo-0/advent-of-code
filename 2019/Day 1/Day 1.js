@@ -2,9 +2,8 @@
 				<--- Day 1: The Tyranny of the Rocket Equation --->
 
 Santa has become stranded at the edge of the Solar System while delivering presents to other
-planets! To accurately calculate his position in space, safely align his warp drive, and return to Earth in time to save Christmas, he needs you to bring him measurements from fifty stars.
-
-Collect stars by solving puzzles. Each puzzle grants one star!
+planets! To accurately calculate his position in space, safely align his warp drive, and return to
+Earth in time to save Christmas.
 
 The Elves quickly load you into a spacecraft and prepare to launch.
 
@@ -26,7 +25,7 @@ const allMass = [144358, 92044, 53617, 71695, 134329, 149370, 57980, 71899, 5828
 
 
 /**
- * Finds the total fuel required to launch all the modulea based on its mass. Specificaly,
+ * Finds the total fuel required to launch all the modules based on its mass. Specificaly,
  * to find the fuel required for a module, take its mass, divide by three, round down,
  * and subtract two.
  */
