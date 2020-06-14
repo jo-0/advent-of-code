@@ -1,19 +1,11 @@
 /*                  
 				<--- Day 1: The Tyranny of the Rocket Equation --->
-
-Santa has become stranded at the edge of the Solar System while delivering presents to other
-planets! To accurately calculate his position in space, safely align his warp drive, and return to
-Earth in time to save Christmas.
-
-The Elves quickly load you into a spacecraft and prepare to launch.
-
-At the first Go / No Go poll, every Elf is Go until the Fuel Counter-Upper. They haven't determined the amount of fuel required yet.
 */
 
 "use strict";
 
 
-// All the modules and its mass.
+// Mass of each module.
 const allMass = [144358, 92044, 53617, 71695, 134329, 149370, 57980, 71899, 58281, 67662,
 	81199, 123700, 140080, 63608, 71520, 51020, 125731, 58038, 64709, 120935, 65512, 142680, 135615,
 	64251, 131894, 92421, 135197, 118339, 111812, 133283, 100622, 67295, 125093, 56381, 76811,
@@ -25,7 +17,7 @@ const allMass = [144358, 92044, 53617, 71695, 134329, 149370, 57980, 71899, 5828
 	118543, 63914, 54664];
 
 
-(function () {
+(function calculateFuelRequiredForAllModules() {
 	// Finds the total fuel required to launch all the modules based on its mass. Specificaly,
 	// to find the fuel required for a module, take its mass, divide by three, round down,
 	// and subtract two.
