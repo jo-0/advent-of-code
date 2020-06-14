@@ -1,2 +1,2 @@
-# AoC
-Programming puzzles
+# Advent of Code
+Solving puzzles found at https://adventofcode.com/ in JS.
