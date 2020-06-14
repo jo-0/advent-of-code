@@ -60,7 +60,7 @@ let intCodeProgram = [1, 0, 0, 3, 1, 1, 2, 3, 1, 3, 4, 3, 1, 5, 0, 3, 2, 1, 6, 1
             default:
                 break;
         }
-        // Step forward 4 position to reach the next opcode. Repeat.
+        // Step forward 4 positions to reach the next opcode. Repeat.
         step += 4;
         processOpcode(step);
     }
