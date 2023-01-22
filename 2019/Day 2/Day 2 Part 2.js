@@ -1,6 +1,4 @@
-/*  
- <--- Part Two --->
-*/
+/*<--- Part Two --->*/
 
 
 "use strict";
