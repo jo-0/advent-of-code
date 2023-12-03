@@ -1,2 +1,2 @@
 # Advent of Code
-Solving puzzles found at https://adventofcode.com/ in JS.
+Solving puzzles found at https://adventofcode.com/.
