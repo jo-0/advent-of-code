@@ -10,7 +10,7 @@ def get_floor(string, check=False) -> int:
                 floor -= 1
         
         if check and (floor == -1):
-                return index
+            return index
 
     return floor
 
